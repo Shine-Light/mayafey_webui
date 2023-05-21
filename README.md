@@ -1,6 +1,16 @@
 # mayafey_webui
 真宵Bot的Web管理面板, 以 [v3-admin-vite](https://github.com/un-pany/v3-admin-vite/) 为模板制作
 
+## 界面展示
+<details>
+<summary>点击展开</summary>
+<img src=".github/图像 001.png">
+<img src=".github/图像 002.png">
+<img src=".github/图像 003.png">
+<img src=".github/图像 004.png">
+<img src=".github/图像 005.png">
+</details>
+
 ## 注意事项
 机器人版本需在 `0.7.0` 及以上  
 机器人配置中 `HOST` 需为 `0.0.0.0`  
