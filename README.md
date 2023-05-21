@@ -4,7 +4,8 @@
 ## 注意事项
 机器人版本需在 `0.7.0` 及以上  
 机器人配置中 `HOST` 需为 `0.0.0.0`  
-若需将面板部署至公网, 建议先将机器人目录中 `Api/api/utils.py` 的 `secret_key` 换成新的随机字符串
+若需将面板部署至公网, 建议先将机器人目录中 `Api/api/utils.py` 的 `secret_key` 换成新的随机字符串  
+账号密码可在机器人目录下 `config/api/config_general.json` 中修改
 
 ## 安装nodejs
 前往 [nodejs官网](https://nodejs.org/zh-cn/download) 下载并安装
