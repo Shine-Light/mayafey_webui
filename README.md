@@ -15,6 +15,7 @@ npm i -g pnpm
 ```
 
 ## 安装依赖
+在webui目录打开命令行
 ```
 pnpm i
 ```
