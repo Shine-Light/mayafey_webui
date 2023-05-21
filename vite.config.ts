@@ -39,7 +39,7 @@ export default (configEnv: ConfigEnv): UserConfigExport => {
       /** 接口代理 */
       proxy: {
         "/api/version": {
-          target: "https://github.com/Shine-Light/mayafey_webui/blob/main/package.json",
+          target: "https://raw.fastgit.org/Shine-Light/mayafey_webui/main/package.json",
           ws: true,
           /** 是否允许跨域 */
           changeOrigin: true,

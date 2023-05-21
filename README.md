@@ -56,7 +56,7 @@ location /api {
 }
 
 location = /api/version {
-  proxy_pass https://github.com/Shine-Light/mayafey_webui/blob/main/package.json;
+  proxy_pass https://raw.fastgit.org/Shine-Light/mayafey_webui/main/package.json;
 }
 ```
 将此配置复制至 `nginx目录/conf/nginx.conf` 的 `server` 中,根据自己的配置修改 `proxy_pass` 即可
